@@ -13,7 +13,7 @@ services:
     environment:
       MYSQL_DATABASE: ${DB_NAME}
       MYSQL_USER: ${DB_USER}
-      MYSQL_PASSWORD: ${DB_PASS}
+      MYSQL_PASSWORD: THISISPRODPASSWORD_S&&A*A*S27721
       MYSQL_ROOT_PASSWORD: ${DB_PASS}
       SERVICE_TAGS: prod
       SERVICE_NAME: mysqldb
